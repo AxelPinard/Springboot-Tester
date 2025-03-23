@@ -1,10 +1,12 @@
 Salutations fellow classmates
 
-once you have downloaded this repository and started the server you can open up your browser of choice and go to http:localhost:8080
+This is a client server application 
 
-once there you have the 2 options of /getCRSE and /addCRSE
+so begin by downloading the repository and running the server (main), afterwards you can run the client.
 
-this is a very basic usage of how to pass data to and from the controller (Ie. server) over a network. 
-the string you /addCRSE will appear in the list from /getCRSE
+in your ide open up the output.png file
 
-very basic project with not a lot of scope I understand.
+the purpose of the program is for the client to request new pictures to replace  output.png from the server
+the server then sends the picutes over the local net to the client
+
+to see this happening you will have to swap from the output.png tab in your ide to a different tab (this refreshes the tab so you can see the picture changing)
